@@ -1,0 +1,91 @@
+---
+import MainLayout from '../layouts/MainLayout.astro';
+---
+<MainLayout title="Arnas Vaicekauskas">
+	<main class="flex flex-col justify-center md:flex-row flex-grow pl-4 pr-4 pt-24 pb-24">
+
+		<!-- main message -->
+		<div class="w-4/5">
+			<div>
+				<h2 class="lg:text-2xl p-4">
+					About
+				</h2>
+				<div class="flex flex-row">
+					<div class="w-px ml-2 mr-2 bg-gradient-to-t from-primary to-secondary-500"/>
+					<div class="flex flex-col">
+						<p class="p-2">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+							Donec eleifend velit et ipsum commodo sagittis. Nulla facilisi. 
+							Suspendisse eget augue nec felis lacinia dignissim. Quisque id 
+							fringilla velit. Maecenas congue aliquam sem sit amet euismod. 
+							Maecenas convallis nulla ut ultricies scelerisque. Pellentesque 
+							non nunc non est pellentesque accumsan. Donec in nibh et ex 
+							eleifend congue. Pellentesque lacinia tincidunt imperdiet.
+						</p>
+						<ul>
+							<li class="flex flex-row items-center">
+								<div class="fill-primary p-2">
+									<svg width="16" height="16" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+										<path d="M240.1 4.216C249.1-1.405 262-1.405 271.9 4.216L443.6 102.4L447.1 104V104.9L495.9 132.2C508.5 139.4 514.6 154.2 510.9 168.2C507.2 182.2 494.5 192 479.1 192H31.1C17.49 192 4.795 182.2 1.071 168.2C-2.653 154.2 3.524 139.4 16.12 132.2L63.1 104.9V104L68.37 102.4L240.1 4.216zM64 224H128V416H168V224H232V416H280V224H344V416H384V224H448V420.3C448.6 420.6 449.2 420.1 449.8 421.4L497.8 453.4C509.5 461.2 514.7 475.8 510.6 489.3C506.5 502.8 494.1 512 480 512H32C17.9 512 5.46 502.8 1.373 489.3C-2.713 475.8 2.517 461.2 14.25 453.4L62.25 421.4C62.82 420.1 63.41 420.6 64 420.3V224z"/>
+									</svg>
+								</div>
+	
+								<span>
+									<a href="https://www.vu.lt/en/" class="text-gray-300 hover:text-white transition duration-300 ease-in-out">
+										Vilnius University
+									</a>, BSc Software Engineering (expected 2025)
+								</span>
+								
+							</li>
+
+							<li class="flex flex-row items-center">
+								<div class="fill-primary p-2">
+									<svg width="16" height="16" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+										<path d="M0 144v288C0 457.6 22.41 480 48 480H96V96H48C22.41 96 0 118.4 0 144zM336 0h-160C150.4 0 128 22.41 128 48V480h256V48C384 22.41 361.6 0 336 0zM336 96h-160V48h160V96zM464 96H416v384h48c25.59 0 48-22.41 48-48v-288C512 118.4 489.6 96 464 96z"/>
+									</svg>
+								</div>
+
+								<span>
+									Software Engineer at 
+									<a href="https://monet.lt/" class="text-gray-300 hover:text-white transition duration-300 ease-in-out">
+										monet.lt
+									</a>
+								</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>		
+
+		<div class="w-16"/>
+
+		<!-- projects -->
+		<div class="flex flex-col w-1/5 p-4">
+			<h2 class="text-2xl">
+				Projects
+			</h2>
+			<ul class="flex flex-col justify-center list-disc list-inside flex-grow">
+				<li> 
+					<span class="hover:text-white transition duration-300 ease-in-out">
+						Project 1
+					</span>
+				</li>
+
+				<li> 
+					<span class="hover:text-white transition duration-300 ease-in-out">
+						Project 2
+					</span>
+				</li>
+
+
+				<li> 
+					<span class="hover:text-white transition duration-300 ease-in-out">
+						Project 3
+					</span>
+				</li>
+
+			</ul>
+		</div>
+	</main>
+</MainLayout>
